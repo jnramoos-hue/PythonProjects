@@ -20,8 +20,22 @@ elements['período'] = 1
 print(elements)
 
 # Delete entry
-del elements['período']
-print(elements)
+# del elements['período']
+# print(elements)
+#
+# elements.clear()
+# print(elements)
+#
+# del elements
+# print(elements)
 
-elements.clear()
-print(elements)
+print(elements.items())
+for i in elements.items():
+    print(i)
+
+print(elements.keys())
+for i in elements.keys():
+    print(i)
+
+for i, j in elements.items():
+    print(f'{i}:{j}')
