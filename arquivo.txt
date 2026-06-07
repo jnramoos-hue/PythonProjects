@@ -1,0 +1,4 @@
+Um arquivo é uma área em um dispositivo de armazenamento onde gravamos e lemos dados.
+Arquivos de texto simples (plano) são uma sequência estruturada de linhas, contendo caracteres, sem infomações sobre o formato.
+Cada linha em um arquivo de texto é terminada com um caractere especial de fim de linha, O EOL (end of line).
+No geral, o caractere EOL  é o \n.
